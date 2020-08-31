@@ -1,0 +1,9 @@
+
+<div>
+    <router-link  to = '/foo' class = 'success'>Foo (spa-page)</router-link>
+    <router-link  to = '/bar/1/2/3?a=a-value&b=b-value' class = 'success'>Bar (spa-page)</router-link>
+    <router-link  to = '/no_spa' class = 'info'>HTML-page</router-link>
+    <router-link  to = '/baz' class = 'error'>Not found</router-link>
+    <loading  v-if = '$root.route_state == "loading"'></loading>
+    <router-view  v-else></router-view>
+</div>

@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  charset = 'utf-8'/>
+        <meta  name = "viewport" content = "width=device-width, initial-scale=1"/>
+        <link  rel = "stylesheet" type = "text/css" href = '[[ =URL("static", "css/no.css")]]'/>
+        <link  rel = "shortcut icon" href = "[[=URL('static','favicon.ico')]]" type = "image/x-icon"/>
+        <title>
+            SPA demo
+        </title>
+    </head>
+    <body>
+        <div  id = 'app' style = 'display: none;'></div>
+        <script  src = '[[ =URL("static" , "js/rs_require.js")]]' data-static_ver = '[[=static_ver]]' data-routes = '[[=XML(routes)]]'></script>
+        <script  src = '[[ =URL("static" , "js/index.js")]]'></script>
+    </body>
+</html>
